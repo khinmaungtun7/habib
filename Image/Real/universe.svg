@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="623" viewBox="0 0 1200 623">
+  <g id="universe" transform="translate(0 -82)">
+    <rect id="BG" width="1200" height="623" transform="translate(0 82)" fill="#2471a3"/>
+    <g id="Stars">
+      <circle id="s8" cx="6" cy="6" r="6" transform="translate(574.6 202.9)" fill="#ff6584"/>
+      <circle id="s7" cx="6" cy="6" r="6" transform="translate(404.6 440.9)" fill="#ff6584"/>
+      <circle id="s6" cx="6" cy="6" r="6" transform="translate(766.6 359.9)" fill="#ff6584"/>
+      <circle id="s5" cx="6" cy="6" r="6" transform="translate(893.6 604.9)" fill="#ff6584"/>
+      <circle id="s5-2" data-name="s5" cx="7.5" cy="7.5" r="7.5" transform="translate(671.5 299)" fill="#f2f2f2"/>
+      <circle id="s4" cx="6" cy="6" r="6" transform="translate(430.5 605)" fill="#f2f2f2"/>
+      <circle id="s3" cx="6" cy="6" r="6" transform="translate(632.5 515)" fill="#f2f2f2"/>
+      <circle id="s2" cx="7.5" cy="7.5" r="7.5" transform="translate(854.5 200)" fill="#f2f2f2"/>
+      <circle id="s1" cx="5" cy="5" r="5" transform="translate(472.5 256)" fill="#f2f2f2"/>
+    </g>
+  </g>
+</svg>

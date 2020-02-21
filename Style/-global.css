@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+:root {
+   
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --main-color:#2471A3;
+    --text-color:rgb(10, 39, 58);
+    --button-gradient:linear-gradient(to right, #00b4db, #2471A3); 
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+body{
+
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background: url(../SVGs/bg.svg) no-repeat;
+    
+
+    
+    
+  /*  background-image: linear-gradient(#6c5878 50% , #c06c84);*/
+}
+
+/* Custom Title Text designing */
+
+.skillset .text-title{
+    font-size: 1.5rem;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 500;
+    color:var(--text-color);
+}
+
+.skillset .subtitle{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+
+.text-subtitle{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.skillset .span-text{
+    font-size: .8rem;
+    font-family:'Ibarra Real Nova', serif ;
+    font-weight: 200;
+ 
+}
+
+/* Custom Button Effect*/
+
+button.custom-button{
+background: var(--button-gradient);
+background-clip: padding-box;
+color: whitesmoke;
+transition: background .6s ease;
+}
+
+button.custom-button:hover{
+      animation: btn-ani 5s infinite 0s ease-in;
+      color: whitesmoke;
+}
+
+@keyframes btn-ani{
+  0%{
+      transform: rotate(xx) scale(1);
+      }
+  10%{
+      }
+  21%{
+      transform: scale(1.1);
+      }
+  28%{
+      transform: scale(1.1);
+      }
+  41%{
+      transform: scale(1.1);
+      }
+}
+
+/* Custom Button Effect End Here*/
+
+
+
+
+/* Custom Button Effect*/
+
+.btn {
+
+    width: fit-content;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: var(--main-color);
+    color: white;
+
+}

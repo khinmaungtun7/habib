@@ -1,0 +1,96 @@
+@import url(./Style/-global.css);
+
+/* Humburger Menu Design*/
+
+@import url(./Style/--menu.css);
+
+
+
+
+
+/*Site-banner Profile*/
+
+.site-banner .site-title h1{
+  padding-top: 35%;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.site-banner .site-title h5{
+  font-size: 1.5rem;
+}
+   
+.site-banner .image-profile>img{
+
+  padding: 8rem 2rem;
+  width: 30rem;
+
+}
+
+/*Site-banner Profile End Here*/
+
+
+/* Site-banner About Me Start Here*/
+
+.main-site .about-me{
+
+  padding: 4rem 4rem;
+
+}
+
+.main-site .about-me h2{
+
+  font:normal bold 49px/69px;
+  letter-spacing: 12px;
+  display: block;
+  padding: .8rem 0;
+
+}
+
+.about-me .about-image>img{
+  padding: 0rem 4rem;
+}
+
+/* Card Tech-Profile*/
+
+
+/* Image Slider*/
+
+.web-projects{
+  height: 100vh;
+  background:rgb(59, 94, 139);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.web-projects h3{
+  color: rgb(200, 204, 204);
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.web-projects p{
+
+  color: rgb(200, 204, 204);
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .card:hover{
+
+    transform: scale(1);
+    box-shadow: 0 15px 70px rgba(0, 0, 0, .08);
+  
+  }
+}
