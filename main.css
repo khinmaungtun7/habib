@@ -83,7 +83,15 @@
 
 }
 
+/*recommandation Profile styling*/
 
+.recommend-profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  
+}
 
 @media (max-width: 768px) {
 

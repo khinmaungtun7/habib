@@ -45,7 +45,7 @@ $('.skillset .button-group button').on('click', function(e){
 });
 
 
-
+// Glider Js Labraries for Recommendation Area
 
 
 
