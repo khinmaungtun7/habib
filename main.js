@@ -45,7 +45,16 @@ $('.skillset .button-group button').on('click', function(e){
 });
 
 
-// Glider Js Labraries for Recommendation Area
+// Owl Carousel Js Labraries for Recommendation Area
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:2500,
+    nav:false,
+    dots:true,
+    //navText:[$('.owl-navigation .owl-nav-left'),$('.owl-navigation .owl-nav-right')]
 
 
+});
 
