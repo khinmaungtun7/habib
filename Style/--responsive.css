@@ -1,7 +1,11 @@
 
 @media only screen and (max-width:1910px){
 
-    .main-site{
+    .body{
+
+        padding: 0%;
+        margin: 0%;
+        background: white;
    
        
     }
