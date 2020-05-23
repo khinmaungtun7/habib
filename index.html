@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Style/--responsive.css">
     <script src="https://kit.fontawesome.com/e0c6ac96bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     
@@ -44,6 +45,17 @@
            
        
         </div>
+
+        <div class="social">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+                
+        </div>
     </div>
 </header>
 
@@ -60,10 +72,28 @@
         
                             <h1 class=" text-uppercase"> I'm Khin Maung Tun</h1>
                             <h5 class="subtitle"> System Engineer | Web Enthusiam</h5>
-                            <h6><i class="fas fa-globe-americas fa-lg"></i>   Yangon, Myanmar</h6>
-                            <h6><i class="fas fa-clock fa-lg"></i> 14:45, GMT</h6>
-                            <h6><i class="fas fa-business-time fa-lg"></i> Working...</h6> 
 
+                            <div>
+                                <h6><i class="fas fa-globe-americas fa-lg"></i>   Yangon, Myanmar</h6>
+                            </div>
+                            
+                            
+                            <div class="timing">
+                                <i class="fas fa-clock fa-lg"> </i> &nbsp;
+                                <p class="time-status"></p>                 
+                            </div>
+                         
+                            <div class="working-time" >
+                                <i class="fas fa-business-time fa-lg"></i> &nbsp;
+                                <p class="work-status"></p><span>.</span>
+                                <span>.</span>
+                                <span>.</span>
+                               
+                            </div>
+                                      
+                            
+                        
+                           
                             </div>
 
                             <div class="col-lg-6 col-md-12 image-profile">
@@ -90,12 +120,13 @@
 
                             <div class="col-lg-6 col-md-12 profile-title mt-2">
                                 <h2>About Me</h2>
+                                <div class="strokebar"></div>
                                 <div class="paragraph  w-100">
                                     <p class="para">
                                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae neque nemo suscipit. Laboriosam et reiciendis dolorum placeat, ea debitis dolore numquam. Ullam, perspiciatis? Sint, pariatur voluptas dicta nulla quos, dolor fugit error harum nam doloremque inventore! Ipsa dolores qui at vitae consectetur quo fugit itaque quaerat neque praesentium nihil, voluptatibus dolorum. Ducimus ipsum nostrum enim odit dignissimos nulla dolore ex.
                                     </p>
                                 </div>
-                                <button class="btn my-3 custom-button"> Download CV <i class="far fa-arrow-alt-circle-down"></i></button>
+                                <button class="btn my-3 download-button"> Download CV <i class="far fa-arrow-alt-circle-down"></i></button>
                             </div>
                     </div>
         
@@ -145,9 +176,9 @@
             
         </div>
 
-        <div class="button-group">
-            <button type="button" data-filter="*" class="btn btn-primary switch-button">All</button>
-            <button type="button" data-filter=".sysnet" class="btn btn-primary switch-button">System|Network</button>
+        <div class="SwitchBtn-group">
+            <button type="button" data-filter="*" class="btn switch-button">All</button>
+            <button type="button" data-filter=".sysnet" class="btn switch-button">System|Network</button>
             <button type="button" data-filter=".webdev" class="btn switch-button">Web Development | Design</button>
         </div>
 
@@ -312,7 +343,7 @@
 
 <!--Blog Post Area -->
 
-<section class="blog-intro">
+<section class="blog-intro py-4">
 
     <div class="container">
         <div class="row">
@@ -323,78 +354,88 @@
                 <p class="text-subtitle text-muted">And What they say about me!</p>
             </div>
         </div>
-    </div>
+    
 
     <div class="blog">
-        <div class="container">
+        
             <div class="owl-carousel owl-theme blog-post">
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/BlogP1.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>"">
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                       <div>
+                           <button class="btn BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
+                       
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>
+                    <div class="blog-title p-2">
+                        <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
+                        <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
+                       <div class="btn-wrap">
+                           <button class="btn btnborder-gradient BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
 
                     </div>
                 </div>
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/bag.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header text-title"> This is the Artical </div>
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                       <div>
+                           <button class="btn BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
 
                     </div>
                 </div>
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/640.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
-
-                    </div>
-                </div>
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/bag.jpg" alt="" srcset="">
-                    <div class="blog-title p-2">
-                        <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
-                        <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                       <div>
+                           <button class="btn BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
 
                     </div>
                 </div> 
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/bag.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                       <div>
+                           <button class="btn BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
 
                     </div>
                 </div> 
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/bag.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                       <div>
+                           <button class="btn BlogBtn text-justify">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                       </div>  
 
                     </div>
                 </div> 
-                <div class="blog-contents text-center">
-                    <img src="./Image/BlogPosts/bag.jpg" alt="" srcset="">
+                <div class="blog-contents">
+                    <div class="Post-Header"> This is the Artical </div>
                     <div class="blog-title p-2">
                         <h3 class="text-uppercase text-left">Enterprise are adapting Azure Cloud!</h3>
                         <p class="text-justify p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium sunt nostrum molestias non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsum?</p>
-                        <button class="btn ">Read More</button>
+                        <button class="btn ">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
 
                     </div>
                 </div> 
-
-            
                
-            </div>
+            
         </div>
     
     </div>
@@ -402,14 +443,37 @@
 
 
 
-
+</div>
 
 </section>
 
-<section class="py-4 mt-5">
-     <p>This is the paragraph</p>
-     <article> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit molestias facere sit placeat delectus assumenda hic rem aperiam eius ea.</article>
-</section>
+<!--Footer Section Area-->
+<footer>
+    <div class="footer-container">
+      <div class="left-col pt-4">
+        <h4>Let's Keep in touch!</h4>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2020 Created By DarkCode All Rights Reserved.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn subbtn" value="submit">
+        </form>
+      </div>
+    </div>
+</footer>
+
 
 </main>
 
@@ -420,7 +484,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    
+    <script src="./Libraries/JS/jquery.min.js"></script>
    
 
     <!--Isotope JS Libraries-->
@@ -428,7 +492,7 @@
     <script src="./Libraries/JS/isotope.min.js"></script>
 
     <!--Owl Carousel Js-->
-    <script src="./Libraries/JS/jquery.min.js"></script>
+  
     <script src="./Libraries/JS/owl.carousel.js"></script>
     <script src="./Libraries/JS/owl.carousel.min.js"></script>
 

@@ -1,3 +1,70 @@
+// Clock and Working mode 
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    var clock= document.querySelector(".timing .time-status");
+    
+
+    setInterval(updateTime);
+    
+    function updateTime(){
+
+        var date= new Date();
+        var hours= date.getHours();
+        var minutes= date.getMinutes();
+        var seconds = date.getSeconds();
+        AmPm = 'AM';
+
+        if (hours > 12) {
+
+            hours -= 12;
+            AmPm = 'PM';
+           
+            
+        } 
+
+        var flash = ":";
+        if (seconds % 2 === 1) {
+            
+            flash = " ";
+        }
+
+        clock.innerHTML = hours +  flash + minutes + " "+ AmPm;
+
+        var ChangeJob = document.querySelector('.working-time .work-status');
+       
+        
+        if (hours >= 6 && hours <= 18) {
+
+            ChangeJob.innerHTML= 'Working '
+            
+            
+        } else {
+            
+            ChangeJob.innerHTML = 'Breaking Bad'
+
+        }
+
+    }
+
+    
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Auto Image Slider only for Project Area
 var i = 0;
 var img = [];
@@ -30,7 +97,7 @@ window.onload = changeImage;
 
 // Isotope Sorting Libararies for Skills Area
 
-$('.skillset .button-group button').on('click', function(e){
+$('.skillset .SwitchBtn-group button').on('click', function(e){
 
      e.preventDefault();
 
@@ -53,6 +120,7 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:2500,
     nav:false,
     dots:true,
+   
     //navText:[$('.owl-navigation .owl-nav-left'),$('.owl-navigation .owl-nav-right')]
 
 
