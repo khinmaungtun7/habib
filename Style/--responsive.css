@@ -1,12 +1,13 @@
 
+ /* This is Responsive Breakpoints for Small Devices*/
+  /* Small devices (tablets, 768px and up) */
 
-.main-site .site-banner{
+  @media (max-width: 768px) { 
+  
+    .main-site .site-banner {
+        background: sandybrown;
+    }
+ 
 
-    width: 100%;
-}
-
-.main-site .image-profile{
-
-    width: 100%;
-    display: none;
-}
+  
+   }
