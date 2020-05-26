@@ -161,7 +161,7 @@ main .blog-intro{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
 }
 main .blog-post {
   padding-top: 2rem;

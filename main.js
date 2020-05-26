@@ -120,6 +120,21 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:2500,
     nav:false,
     dots:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+
+        },
+        600:{
+            items:3,
+
+        },
+        1000:{
+            items:5,
+            loop:false
+        }
+    }
    
     //navText:[$('.owl-navigation .owl-nav-left'),$('.owl-navigation .owl-nav-right')]
 
