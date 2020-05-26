@@ -4,10 +4,38 @@
 
   @media (max-width: 768px) { 
   
-    .main-site .site-banner {
-        background: sandybrown;
+    .main-site .image-profile {
+        display: none;
     }
  
+    .about-me .about-image{
+          
+         display: none;
+    }
 
-  
+    .main-site .about-me{
+
+        padding: 0px 10px;
+
+    }
+
+    .web-projects .image-slider{
+
+      padding: 10px 16px;
+
+    }
+     
+    .web-projects .btn{
+       
+      margin-top: 2px;
+    }
+
+
+    .skillset .switch-button {
+
+      margin: 4px 0px;
+    
+    }
+
+   
    }
