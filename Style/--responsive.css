@@ -3,14 +3,17 @@
   /* Small devices (tablets, 768px and up) */
 
   @media (max-width: 768px) { 
+
+    body{
+      background:white;
+    }
   
     .main-site .image-profile {
         display: none;
     }
  
     .about-me .about-image{
-          
-         display: none;
+        
     }
 
     .main-site .about-me{
