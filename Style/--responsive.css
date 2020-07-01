@@ -11,6 +11,12 @@
     .main-site .image-profile {
         display: none;
     }
+
+    .main-site .site-banner{
+
+      height: 100vh;
+
+    }
  
     .about-me .about-image{
       padding: 0px 3rem;
